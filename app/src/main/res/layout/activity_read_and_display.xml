@@ -23,7 +23,7 @@
         android:layout_marginEnd="28dp"
         android:clickable="true"
         android:tint="#fff"
-        app:backgroundTint="@color/colorPrimary"
+        app:backgroundTint="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/reply_all_white"

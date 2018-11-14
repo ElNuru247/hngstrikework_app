@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/colorPrimary"
+    android:background="@color/dialog_blue"
     android:orientation="vertical">
 
     <LinearLayout
@@ -60,7 +60,8 @@
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cancel" />
+            android:text="Cancel"
+            android:textColor="@color/colorPrimaryDark" />
 
         <Button
             android:id="@+id/details_schedule_btn"
@@ -68,7 +69,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:text="Schedule" />
+            android:text="Schedule"
+            android:textColor="@color/colorPrimaryDark" />
 
         <Button
             android:id="@+id/details_send_btn"
@@ -76,7 +78,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:text="Send" />
+            android:text="Send"
+            android:textColor="@color/colorPrimaryDark" />
 
     </LinearLayout>
 </LinearLayout>
